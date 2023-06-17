@@ -8,7 +8,7 @@ import { Document, DocumentUpdate } from "src/app/shared/interfaces/documents.in
   providedIn: "root"
 })
 export class DocumentsService {
-  url: string = "http://localhost:3000";
+  url: string = "http://164.92.120.9";
 
   constructor(
     private http: HttpClient,

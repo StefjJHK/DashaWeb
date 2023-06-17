@@ -9,7 +9,7 @@ import { UpdateUser, User } from "src/app/shared/interfaces/user.interface";
   providedIn: "root"
 })
 export class AuthorizationService {
-  url: string = "http://localhost:3000";
+  url: string = "http://164.92.120.9";
   token: string | null = localStorage.getItem("token");
 
   constructor(

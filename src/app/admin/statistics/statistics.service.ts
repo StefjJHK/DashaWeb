@@ -8,7 +8,7 @@ import { Statistic } from "src/app/shared/interfaces/statistic.interface";
   providedIn: "root"
 })
 export class StatisticsService {
-  url: string = "http://localhost:3000";
+  url: string = "http://164.92.120.9";
 
   constructor(
     private http: HttpClient,
